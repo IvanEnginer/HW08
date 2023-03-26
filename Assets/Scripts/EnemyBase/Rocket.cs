@@ -13,7 +13,6 @@ public class Rocket : MonoBehaviour
     private void Start()
     {
         _playerTransform = FindObjectOfType<PlayerMove>().transform;
-//        _finelTransform.transform.position = new Vector3(_playerTransform.position.x, _playerTransform.position.y, 0);
     }
 
     private void Update()
